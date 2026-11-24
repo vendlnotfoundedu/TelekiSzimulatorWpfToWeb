@@ -1,0 +1,24 @@
+{
+    "name": "telekiszimulatorwpftoweb",
+    "version": "1.0.0",
+    "description": "",
+    "homepage": "https://github.com/vendlnotfoundedu/TelekiSzimulatorWpfToWeb#readme",
+    "bugs": {
+        "url": "https://github.com/vendlnotfoundedu/TelekiSzimulatorWpfToWeb/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vendlnotfoundedu/TelekiSzimulatorWpfToWeb.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "app.js",
+    "scripts": {
+        "test": "playwright test --headed"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.65.1",
+        "@types/node": "^26.6.6"
+    }
+}
